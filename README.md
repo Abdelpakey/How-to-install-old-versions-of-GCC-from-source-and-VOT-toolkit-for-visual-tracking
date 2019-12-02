@@ -41,15 +41,15 @@ or
    $ arch
    wget http://mirror.sergal.org/gnu/binutils/binutils-2.33.1.tar.xz
    $ mkdir build-binutils
-   $ cd build-binutils
+   $ cd build-binutils 
    $ ../binutils-binutils-2.33.1/configure --prefix=/opt/cross --target=x86-64-pc-linux-gnu --disable-multilib
-   $ make -j4
-   $ make install
+   $ make -j 22 
+   $ sudo make install
    $ cd ..
    
 # 2- Downloading the source
 
-This is the official mirro website chose the best fro you [her](https://gcc.gnu.org/mirrors.html) from [here](http://www.gnu.org/prep/ftp.html)
+This is the official mirro website chose the best server for you [her](https://gcc.gnu.org/mirrors.html), the parent link is from [here](http://www.gnu.org/prep/ftp.html)
 In may case I selcted this [one](http://mirror.sergal.org/gnu/)
 Download [GCC-6.3](http://mirror.sergal.org/gnu/gcc/gcc-6.3.0/gcc-6.3.0.tar.gz) manually or using:
 
@@ -63,8 +63,14 @@ Then
    $ cd ~
    $ mkdir build630
    $ cd build630
+   
+ # 3- Configuration   
+   
    $ $PWD/../gcc-6.3.0/configure --prefix=/usr/bin/gcc-6.3 --enable-languages=c,c++ --disable-multilib
-
+# 4- Building
+   $ make -j 22
+   $sudo make install
+   
 HERE IS THE TRICKY PART:
 
 1- gcc-6.3.0 shipped with old #libsanitizer folder so this will be producing some errors during the compilation. All you can do is delete this folder and copy #libsanitizer from latest version such as gcc-9.2.0 of course after you download it as before and decopmress it then paste it in gcc-6.3.0
@@ -105,7 +111,7 @@ Fix2:@line144
             } *rt_ = context->cfa;
 
        
-       
+# Enjoy :)      
        
  
    
