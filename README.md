@@ -130,7 +130,9 @@ if you want to delete a version
       
       
 All you need to compile VOT toolkit is just replacing the vot.py, that comes with vot version 7-0-2,  by older version from 2018. That's it.
+
 Sources for this article
+
 1- https://solarianprogrammer.com/2016/10/07/building-gcc-ubuntu-linux/
 2- http://mirror.sergal.org/gnu/
 3- https://preshing.com/20141119/how-to-build-a-gcc-cross-compiler/
