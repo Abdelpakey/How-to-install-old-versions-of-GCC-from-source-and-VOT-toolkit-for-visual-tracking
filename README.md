@@ -37,12 +37,7 @@ For Binutils as I read it'd be installed ins this path
       $ sudo chown YURNAME /opt/cross
 Check your linux architecture using:
 
-    $ lscpu 
-Or 
-
-      $ arch
-      
-      
+     $ lscpu or  $ arch    
       wget http://mirror.sergal.org/gnu/binutils/binutils-2.33.1.tar.xz
       $ mkdir build-binutils
       $ cd build-binutils 
