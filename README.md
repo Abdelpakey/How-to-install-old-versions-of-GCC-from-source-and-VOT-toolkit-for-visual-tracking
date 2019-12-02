@@ -85,13 +85,13 @@ To  fix it do this:
       if (*(unsigned char *)(pc+0) == 0x48
             && *(unsigned long long *)(pc+1) == RT_SIGRETURN_SYSCALL)
           {
-            // struct ucontext *uc_ = context->cfa;
-         ucontext_t *uc_ = context->cfa;
-            /* The void * cast is necessary to avoid an aliasing warning.
-               The aliasing warning is correct, but should not be a problem
-               because it does not alias anything.  */
-            sc = (struct sigcontext *) (void *) &uc_->uc_mcontext;
-    }
+                  // struct ucontext *uc_ = context->cfa;
+               ucontext_t *uc_ = context->cfa;
+                  /* The void * cast is necessary to avoid an aliasing warning.
+                     The aliasing warning is correct, but should not be a problem
+                     because it does not alias anything.  */
+                  sc = (struct sigcontext *) (void *) &uc_->uc_mcontext;
+          }
 Fix2:@line144
 
           {
