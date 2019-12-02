@@ -78,7 +78,7 @@ HERE IS THE TRICKY PART:
 
 1- gcc-6.3.0 shipped with old #libsanitizer folder so this will be producing some errors during the compilation. All you can do is delete this folder and copy #libsanitizer from latest version such as gcc-9.2.0 of course after you download it as before and decopmress it then paste it in gcc-6.3.0
 
-2- There are more 2 files you have to modify them
+2- There are 2 more  files you have to modify :
 
    - ubsan.c located in /gcc-6.3.0/gcc as indicated by the patch[here](https://github.com/gcc-mirror/gcc/commit/c0c52589c6a7265e8fc6b77706a83d22aa1ef0ce#diff-5f4702564fc0b717cb4c82d7970a3ad4)
 
