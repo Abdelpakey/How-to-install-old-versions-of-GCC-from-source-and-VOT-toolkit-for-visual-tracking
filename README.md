@@ -80,7 +80,7 @@ HERE IS THE TRICKY PART:
 
 2- There are 2 more  files you have to modify :
 
-   - ubsan.c located in /gcc-6.3.0/gcc as indicated by the patch[here](https://github.com/gcc-mirror/gcc/commit/c0c52589c6a7265e8fc6b77706a83d22aa1ef0ce#diff-5f4702564fc0b717cb4c82d7970a3ad4)
+   - ubsan.c located in /gcc-6.3.0/gcc as indicated by the patch [here](https://github.com/gcc-mirror/gcc/commit/c0c52589c6a7265e8fc6b77706a83d22aa1ef0ce#diff-5f4702564fc0b717cb4c82d7970a3ad4)
 
 To  fix it do this:
 
