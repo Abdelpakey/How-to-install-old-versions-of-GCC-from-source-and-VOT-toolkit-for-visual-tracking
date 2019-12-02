@@ -1,5 +1,5 @@
 # How-to-install-old-versions-of-GCC-and-VOT-toolkit-for-visual-tracking
-1- Download latest version of VOT [here] [https://github.com/votchallenge/vot-toolkit]
+1- Download latest version of VOT [here] (https://github.com/votchallenge/vot-toolkit)
 - Matlab 2019a alwys crashs so best practice to use Matlab  2017a or 2018a.
 - Matlab 2017a uses GCC 4.9 while Matlab-2019a uses GCC-6.3
 2- Install Matlab let say 2018a version
@@ -15,7 +15,7 @@ Installing GCC has steps
    
 # Prerequisites
 
-Most Prerequisites packages are listed [her] https://gcc.gnu.org/install/prerequisites.html
+Most Prerequisites packages are listed [her] (https://gcc.gnu.org/install/prerequisites.html)
 
 However in my case  (Ubuntu oean 19.10) I needed to install only 
 flex,
