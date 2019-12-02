@@ -41,6 +41,8 @@ Check your linux architecture using:
 Or 
 
       $ arch
+      
+      
       wget http://mirror.sergal.org/gnu/binutils/binutils-2.33.1.tar.xz
       $ mkdir build-binutils
       $ cd build-binutils 
