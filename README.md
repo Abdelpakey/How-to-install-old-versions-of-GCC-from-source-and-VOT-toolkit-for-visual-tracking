@@ -113,7 +113,35 @@ Fix2:@line144
          ucontext_t uc;
             } *rt_ = context->cfa;
 
+Finally, select the gcc, g++ you want after adding the installed gcc to the system
+
+      $ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/gcc-6.3/bin/g++ 16
+      $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6.3/bin/gcc 16
+      
+Configure your version 
+
+       $ sudo update-alternatives --config gcc 
+       $ sudo update-alternatives --config g++
+       
+if you want to delete a version
+
+      $ sudo update-alternatives --remove gcc /usr/bin/gcc-6.3/bin/gcc
+       
+      
+      
 All you need to compile VOT toolkit is just replacing the vot.py, that comes with vot version 7-0-2,  by older version from 2018. That's it.
+Sources for this article
+1- https://solarianprogrammer.com/2016/10/07/building-gcc-ubuntu-linux/
+2- http://mirror.sergal.org/gnu/
+3- https://preshing.com/20141119/how-to-build-a-gcc-cross-compiler/
+4- https://ccm.net/faq/30635-how-to-install-flex-and-bison-under-ubuntu
+5- https://gcc.gnu.org/install/
+6- https://github.com/gcc-mirror/gcc
+7- https://unix.stackexchange.com/questions/410723/how-to-install-a-specific-version-of-gcc-in-kali-linux
+8- https://github.com/gcc-mirror/gcc/releases?after=gcc-7_2_0-release
+9- https://archerfmy.github.io/2017/04/12/How-to-switch-your-gcc-g-version-in-ubuntu/
+10- https://github.com/Abdelpakey/Install-CUDA--cuDNN-Tensorflow-on-Ubuntu-16
+
 
 # Enjoy :)      
        
