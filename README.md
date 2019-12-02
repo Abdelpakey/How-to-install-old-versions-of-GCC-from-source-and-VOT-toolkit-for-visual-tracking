@@ -30,22 +30,24 @@ Binutils as follows
     sudo apt-get update
     sudo apt-get install flex
     sudo apt-get install bison
+    
 For Binutils as I read it'd be installed ins this path
 
-   $ sudo mkdir -p /opt/cross
-   $ sudo chown YURNAME /opt/cross
+      $ sudo mkdir -p /opt/cross
+      $ sudo chown YURNAME /opt/cross
 Check your linux architecture using:
 
-   $ lscpu 
-or
-   $ arch
-   wget http://mirror.sergal.org/gnu/binutils/binutils-2.33.1.tar.xz
-   $ mkdir build-binutils
-   $ cd build-binutils 
-   $ ../binutils-binutils-2.33.1/configure --prefix=/opt/cross --target=x86-64-pc-linux-gnu --disable-multilib
-   $ make -j 22 
-   $ sudo make install
-   $ cd ..
+    $ lscpu 
+Or 
+
+      $ arch
+      wget http://mirror.sergal.org/gnu/binutils/binutils-2.33.1.tar.xz
+      $ mkdir build-binutils
+      $ cd build-binutils 
+      $ ../binutils-binutils-2.33.1/configure --prefix=/opt/cross --target=x86-64-pc-linux-gnu --disable-multilib
+      $ make -j 22 
+      $ sudo make install
+      $ cd ..
    
 # 2- Downloading the source
 
