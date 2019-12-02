@@ -54,6 +54,7 @@ In may case I selcted this [one](http://mirror.sergal.org/gnu/)
 Download [GCC-6.3](http://mirror.sergal.org/gnu/gcc/gcc-6.3.0/gcc-6.3.0.tar.gz) manually or using:
 
    $ wget http://mirror.sergal.org/gnu/gcc/gcc-6.3.0/gcc-6.3.0.tar.gz
+   
 Then
    $ sudo apt-get update
    $ sudo apt-get install build-essential
