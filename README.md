@@ -53,26 +53,27 @@ This is the official mirro website chose the best server for you [her](https://g
 In may case I selcted this [one](http://mirror.sergal.org/gnu/)
 Download [GCC-6.3](http://mirror.sergal.org/gnu/gcc/gcc-6.3.0/gcc-6.3.0.tar.gz) manually or using:
 
-   $ wget http://mirror.sergal.org/gnu/gcc/gcc-6.3.0/gcc-6.3.0.tar.gz
+      $ wget http://mirror.sergal.org/gnu/gcc/gcc-6.3.0/gcc-6.3.0.tar.gz
    
 Then
-   $ sudo apt-get update
-   $ sudo apt-get install build-essential
-   $ tar -xzf gcc-6.3.0.tar.gz
-   $ cd gcc-6.3.0
-   $ contrib/download_prerequisites
-   $ cd ~
-   $ mkdir build630
-   $ cd build630
+
+      $ sudo apt-get update
+      $ sudo apt-get install build-essential
+      $ tar -xzf gcc-6.3.0.tar.gz
+      $ cd gcc-6.3.0
+      $ contrib/download_prerequisites
+      $ cd ~
+      $ mkdir build630
+      $ cd build630
    
  # 3- Configuration   
    
-   $ $PWD/../gcc-6.3.0/configure --prefix=/usr/bin/gcc-6.3 --enable-languages=c,c++ --disable-multilib
+    $ PWD/../gcc-6.3.0/configure --prefix=/usr/bin/gcc-6.3 --enable-languages=c,c++ --disable-multilib
    
 # 4- Building
 
-   $ make -j 22
-   $ sudo make install
+      $ make -j 22
+      $ sudo make install
    
 HERE IS THE TRICKY PART:
 
