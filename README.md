@@ -67,9 +67,11 @@ Then
  # 3- Configuration   
    
    $ $PWD/../gcc-6.3.0/configure --prefix=/usr/bin/gcc-6.3 --enable-languages=c,c++ --disable-multilib
+   
 # 4- Building
+
    $ make -j 22
-   $sudo make install
+   $ sudo make install
    
 HERE IS THE TRICKY PART:
 
