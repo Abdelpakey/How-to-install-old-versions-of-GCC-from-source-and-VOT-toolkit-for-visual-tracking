@@ -9,8 +9,11 @@
 
 Installing GCC has steps
    1- Prerequisites
+   
    2- Downloading the source
+   
    3- Configuration
+   
    4- Building
    
 # Prerequisites
