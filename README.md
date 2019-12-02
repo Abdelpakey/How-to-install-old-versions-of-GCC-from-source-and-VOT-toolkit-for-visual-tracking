@@ -113,7 +113,8 @@ Fix2:@line144
          ucontext_t uc;
             } *rt_ = context->cfa;
 
-       
+All you need to compile VOT toolkit is just replacing the vot.py, that comes with vot version 7-0-2,  by older version from 2018. That's it.
+
 # Enjoy :)      
        
  
