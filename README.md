@@ -153,6 +153,8 @@ Sources for this article:
 
 10- https://github.com/Abdelpakey/Install-CUDA--cuDNN-Tensorflow-on-Ubuntu-16
 
+11- https://gcc.gnu.org/viewcvs/gcc/trunk/libgcc/config/i386/linux-unwind.h?r1=249731&r2=249730&pathrev=249731 
+
 
 # Enjoy :)      
        
